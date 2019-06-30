@@ -1,0 +1,1 @@
+sudo ./trigger_pulser [freq=1000] 

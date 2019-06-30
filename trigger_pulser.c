@@ -8,8 +8,7 @@
 #define PWM_PIN 12 
 #define PWM_DUTY 500000 
 
-volatile int done = 0;
-
+static volatile int done = 0;
 
 void catch(int sig)
 {

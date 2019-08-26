@@ -1,1 +1,5 @@
+Raspberry Pi 3.3V output at a specific rate using hardware pwm. 
+
+Requires pigpio library (and sudo) 
+
 sudo ./trigger_pulser [freq=1000] 

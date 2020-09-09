@@ -1,5 +1,8 @@
 Raspberry Pi 3.3V output at a specific rate using hardware pwm. 
 
-Requires pigpio library (and sudo) 
+Requires pigpio library (and sudo).
+
+This uses GPIO port 12, which has hardware PWM support on this specific pi (Model 3B v1.2) . Note that here, it corresponds to physical port 32! 
+You may need to change this port if you have a different model!
 
 sudo ./trigger_pulser [freq=1000] 

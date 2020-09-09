@@ -5,6 +5,8 @@
 #include <signal.h>
 
 
+//This is GPIO 12 (corresponds to pin 32 on this board at least, according to pinout) 
+//YMMV! 
 #define PWM_PIN 12 
 #define PWM_DUTY 500000 
 
